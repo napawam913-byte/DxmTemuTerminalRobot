@@ -1,0 +1,10 @@
+# Runtime-local state. Do not commit account sessions, secrets, logs, downloads,
+# cached bytecode, or edited images.
+/work/
+
+# Local process/runtime artifacts
+*.lock
+*.log
+*.tmp
+Thumbs.db
+desktop.ini
